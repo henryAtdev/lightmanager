@@ -1,0 +1,31 @@
+{
+  "programconfiguration":
+  {
+    "logging"               : false,
+    "fontsize"              : 16
+  }
+  
+  "accelerationinstruments":
+  {
+    "has_visible_slider"    : true,
+    "min_speed"             :    0,
+    "max_speed"             :  260,
+    "speed_speedneedle"     :   15,
+    "min_revolution"        :    0,
+    "max_revolution"        :  260,
+    "speed_revolutionneedle":    3
+  },
+  
+  "lightinstruments":
+  {
+    "autodisplay"           : false,
+    "frequencyblinking_ms"  :  500,
+    "frequencwarning_ms"    : 1000
+  },
+  
+  "connection":
+  {
+    "has_websocket"         : true,
+    "socketserver_address"  : "ws://192.168.2.5/ws"
+  }
+}
